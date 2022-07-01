@@ -1,4 +1,4 @@
-package com.khurram.zapkadtest.view
+package com.khurram.zapkadtest.presentation.view
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -14,11 +14,11 @@ import com.khurram.zapkadtest.R
 import com.khurram.zapkadtest.data.model.NoteEntity
 import com.khurram.zapkadtest.data.model.UserDetailEntity
 import com.khurram.zapkadtest.databinding.UserDetailFragmentBinding
-import com.khurram.zapkadtest.network.Resource
+import com.khurram.zapkadtest.data.network.Resource
 import com.khurram.zapkadtest.util.*
-import com.khurram.zapkadtest.viewmodel.NetworkStatusViewModel
-import com.khurram.zapkadtest.viewmodel.NoteViewModel
-import com.khurram.zapkadtest.viewmodel.UserDetailViewModel
+import com.khurram.zapkadtest.presentation.viewmodel.NetworkStatusViewModel
+import com.khurram.zapkadtest.presentation.viewmodel.NoteViewModel
+import com.khurram.zapkadtest.presentation.viewmodel.UserDetailViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

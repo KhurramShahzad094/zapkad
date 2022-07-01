@@ -1,4 +1,4 @@
-package com.khurram.zapkadtest.network
+package com.khurram.zapkadtest.data.network
 
 import kotlinx.coroutines.flow.*
 

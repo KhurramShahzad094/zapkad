@@ -1,9 +1,9 @@
-package com.khurram.zapkadtest.repository
+package com.khurram.zapkadtest.data.repository
 
 import androidx.room.withTransaction
 import com.khurram.zapkadtest.data.db.UserDatabase
-import com.khurram.zapkadtest.network.APIsInterface
-import com.khurram.zapkadtest.network.networkBoundResource
+import com.khurram.zapkadtest.data.network.APIsInterface
+import com.khurram.zapkadtest.data.network.networkBoundResource
 import kotlinx.coroutines.delay
 import javax.inject.Inject
 

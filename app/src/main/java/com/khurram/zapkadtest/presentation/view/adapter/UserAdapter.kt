@@ -1,4 +1,4 @@
-package com.khurram.zapkadtest.adapter
+package com.khurram.zapkadtest.presentation.view.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

@@ -1,4 +1,4 @@
-package com.khurram.zapkadtest.view
+package com.khurram.zapkadtest.presentation.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/userListFragment"
-        android:name="com.khurram.zapkadtest.view.UserListFragment"
+        android:name="com.khurram.zapkadtest.presentation.view.UserListFragment"
         android:label="user_list_fragment"
         tools:layout="@layout/user_list_fragment" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/userDetailFragment"
-        android:name="com.khurram.zapkadtest.view.UserDetailFragment"
+        android:name="com.khurram.zapkadtest.presentation.view.UserDetailFragment"
         android:label="user_detail_fragment"
         tools:layout="@layout/user_detail_fragment" >
         <argument

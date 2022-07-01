@@ -1,11 +1,11 @@
-package com.khurram.zapkadtest.viewmodel
+package com.khurram.zapkadtest.presentation.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
 import com.khurram.zapkadtest.data.model.NoteEntity
-import com.khurram.zapkadtest.repository.DatabaseRepository
+import com.khurram.zapkadtest.data.repository.DatabaseRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.*
 import javax.inject.Inject

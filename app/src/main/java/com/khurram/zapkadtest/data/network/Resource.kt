@@ -1,4 +1,4 @@
-package com.khurram.zapkadtest.network
+package com.khurram.zapkadtest.data.network
 
 sealed class Resource<T>(
     val data: T? = null,

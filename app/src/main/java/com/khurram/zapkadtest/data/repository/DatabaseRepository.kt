@@ -1,4 +1,4 @@
-package com.khurram.zapkadtest.repository
+package com.khurram.zapkadtest.data.repository
 
 import com.khurram.zapkadtest.data.db.UserDatabase
 import com.khurram.zapkadtest.data.model.NoteEntity

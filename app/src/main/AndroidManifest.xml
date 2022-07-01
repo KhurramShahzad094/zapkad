@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ZapKadTest">
         <activity
-            android:name=".view.MainActivity"
+            android:name="com.khurram.zapkadtest.presentation.view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

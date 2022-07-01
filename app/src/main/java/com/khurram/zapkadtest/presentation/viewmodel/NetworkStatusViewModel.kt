@@ -1,4 +1,4 @@
-package com.khurram.zapkadtest.viewmodel
+package com.khurram.zapkadtest.presentation.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData

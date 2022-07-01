@@ -1,4 +1,4 @@
-package com.khurram.zapkadtest.view
+package com.khurram.zapkadtest.presentation.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,14 +10,14 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.khurram.zapkadtest.R
-import com.khurram.zapkadtest.adapter.UserAdapter
+import com.khurram.zapkadtest.presentation.view.adapter.UserAdapter
 import com.khurram.zapkadtest.data.model.UserEntity
 import com.khurram.zapkadtest.databinding.UserListFragmentBinding
-import com.khurram.zapkadtest.network.Resource
+import com.khurram.zapkadtest.data.network.Resource
 import com.khurram.zapkadtest.util.*
-import com.khurram.zapkadtest.viewmodel.NetworkStatusViewModel
-import com.khurram.zapkadtest.viewmodel.NoteViewModel
-import com.khurram.zapkadtest.viewmodel.UserListViewModel
+import com.khurram.zapkadtest.presentation.viewmodel.NetworkStatusViewModel
+import com.khurram.zapkadtest.presentation.viewmodel.NoteViewModel
+import com.khurram.zapkadtest.presentation.viewmodel.UserListViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.runBlocking
 

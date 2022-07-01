@@ -6,9 +6,9 @@ import androidx.room.Room
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.khurram.zapkadtest.data.db.UserDatabase
-import com.khurram.zapkadtest.network.APIsInterface
-import com.khurram.zapkadtest.repository.DatabaseRepository
-import com.khurram.zapkadtest.repository.NetworkRepository
+import com.khurram.zapkadtest.data.network.APIsInterface
+import com.khurram.zapkadtest.data.repository.DatabaseRepository
+import com.khurram.zapkadtest.data.repository.NetworkRepository
 import com.khurram.zapkadtest.util.NetworkStatusTracker
 import dagger.Module
 import dagger.Provides

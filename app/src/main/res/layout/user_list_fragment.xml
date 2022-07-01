@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/parent"
     android:background="?attr/colorSecondaryVariant"
-    tools:context=".view.UserListFragment">
+    tools:context=".presentation.view.UserListFragment">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBar"
