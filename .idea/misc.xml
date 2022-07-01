@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Khurram/AndroidStudioProjects/ZapKadTest/app/src/main/res/drawable/ic_arrow_back.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Khurram/AndroidStudioProjects/ZapKadTest/app/src/main/res/drawable/ic_note.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Khurram/AndroidStudioProjects/ZapKadTest/app/src/main/res/drawable/ic_search.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Khurram/AndroidStudioProjects/ZapKadTest/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Khurram/AndroidStudioProjects/ZapKadTest/app/src/main/res/layout/item_user_list.xml" value="0.21407907425265188" />
+        <entry key="..\:/Users/Khurram/AndroidStudioProjects/ZapKadTest/app/src/main/res/layout/progress_and_error_view.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Khurram/AndroidStudioProjects/ZapKadTest/app/src/main/res/layout/user_detail_fragment.xml" value="0.30277777777777776" />
+        <entry key="..\:/Users/Khurram/AndroidStudioProjects/ZapKadTest/app/src/main/res/layout/user_list_fragment.xml" value="0.26348709929632524" />
+        <entry key="..\:/Users/Khurram/AndroidStudioProjects/ZapKadTest/app/src/main/res/menu/menu_toolbar.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
