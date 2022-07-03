@@ -1,4 +1,4 @@
-package com.khurram.zapkadtest.data.model
+package com.khurram.zapkadtest.data.db.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

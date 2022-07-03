@@ -1,7 +1,7 @@
 package com.khurram.zapkadtest.data.repository
 
 import com.khurram.zapkadtest.data.db.UserDatabase
-import com.khurram.zapkadtest.data.model.NoteEntity
+import com.khurram.zapkadtest.data.db.model.NoteEntity
 import javax.inject.Inject
 
 class DatabaseRepository @Inject constructor(

@@ -11,8 +11,8 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
 import com.khurram.zapkadtest.R
-import com.khurram.zapkadtest.data.model.NoteEntity
-import com.khurram.zapkadtest.data.model.UserDetailEntity
+import com.khurram.zapkadtest.data.db.model.NoteEntity
+import com.khurram.zapkadtest.data.db.model.UserDetailEntity
 import com.khurram.zapkadtest.databinding.UserDetailFragmentBinding
 import com.khurram.zapkadtest.data.network.Resource
 import com.khurram.zapkadtest.util.*

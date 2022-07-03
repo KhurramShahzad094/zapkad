@@ -11,7 +11,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.khurram.zapkadtest.R
 import com.khurram.zapkadtest.presentation.view.adapter.UserAdapter
-import com.khurram.zapkadtest.data.model.UserEntity
+import com.khurram.zapkadtest.data.db.model.UserEntity
 import com.khurram.zapkadtest.databinding.UserListFragmentBinding
 import com.khurram.zapkadtest.data.network.Resource
 import com.khurram.zapkadtest.util.*

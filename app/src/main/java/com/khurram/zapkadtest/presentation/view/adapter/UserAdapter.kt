@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.khurram.zapkadtest.R
-import com.khurram.zapkadtest.data.model.UserEntity
+import com.khurram.zapkadtest.data.db.model.UserEntity
 import com.khurram.zapkadtest.databinding.ItemUserListBinding
 import com.khurram.zapkadtest.util.invisible
 import com.khurram.zapkadtest.util.visible
