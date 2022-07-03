@@ -2,6 +2,8 @@ package com.khurram.zapkadtest.data.repository
 
 import androidx.room.withTransaction
 import com.khurram.zapkadtest.data.db.UserDatabase
+import com.khurram.zapkadtest.data.mapper.toUserDetailEntity
+import com.khurram.zapkadtest.data.mapper.toUserEntity
 import com.khurram.zapkadtest.data.network.APIsInterface
 import com.khurram.zapkadtest.data.network.networkBoundResource
 import kotlinx.coroutines.delay
@@ -26,7 +28,9 @@ class NetworkRepository @Inject constructor(
         saveFetchResult = {users ->
             database.withTransaction {
                 userDao.deleteAllUsers()
-                userDao.insertUsers(users)
+                userDao.insertUsers(users.map {
+                    it.toUserEntity()
+                })
             }
 
         },
@@ -42,8 +46,7 @@ class NetworkRepository @Inject constructor(
             apisInterface.getUserDetail(username = username)
         },
         saveFetchResult = { userDetail ->
-            userDetailDao.insertUserDetail(userDetail)
-
+            userDetailDao.insertUserDetail(userDetail.toUserDetailEntity())
         }
     )
  }
