@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
 import com.khurram.zapkadtest.data.db.model.UserDetailEntity
 import com.khurram.zapkadtest.data.network.Resource
-import com.khurram.zapkadtest.data.repository.NetworkRepository
+import com.khurram.zapkadtest.data.repository.network.NetworkRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 

@@ -7,8 +7,10 @@ import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.khurram.zapkadtest.data.db.UserDatabase
 import com.khurram.zapkadtest.data.network.APIsInterface
-import com.khurram.zapkadtest.data.repository.DatabaseRepository
-import com.khurram.zapkadtest.data.repository.NetworkRepository
+import com.khurram.zapkadtest.data.repository.database.DatabaseRepository
+import com.khurram.zapkadtest.data.repository.database.DatabaseRepositoryImpl
+import com.khurram.zapkadtest.data.repository.network.NetworkRepository
+import com.khurram.zapkadtest.data.repository.network.NetworkRepositoryImpl
 import com.khurram.zapkadtest.util.NetworkStatusTracker
 import dagger.Module
 import dagger.Provides
@@ -65,13 +67,13 @@ object AppModule {
     @Provides
     @Singleton
     fun providesNetworkRepository(apIsInterface: APIsInterface,database: UserDatabase): NetworkRepository {
-        return NetworkRepository(apIsInterface,database)
+        return NetworkRepositoryImpl(apIsInterface,database)
     }
 
     @Provides
     @Singleton
     fun providesDatabaseRepository(database: UserDatabase): DatabaseRepository {
-        return DatabaseRepository(database)
+        return DatabaseRepositoryImpl(database)
     }
 
     @Provides

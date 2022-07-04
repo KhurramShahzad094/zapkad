@@ -1,12 +1,9 @@
 package com.khurram.zapkadtest.viewmodel
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.google.gson.JsonElement
 import com.khurram.zapkadtest.data.db.model.UserEntity
-import com.khurram.zapkadtest.data.mapper.toUserEntity
 import com.khurram.zapkadtest.data.network.Resource
-import com.khurram.zapkadtest.data.network.model.UserRemote
-import com.khurram.zapkadtest.data.repository.NetworkRepository
+import com.khurram.zapkadtest.data.repository.network.NetworkRepository
 import com.khurram.zapkadtest.presentation.viewmodel.UserListViewModel
 import com.khurram.zapkadtest.utils.MainCoroutineScopeRule
 import com.khurram.zapkadtest.utils.getValueForTest
