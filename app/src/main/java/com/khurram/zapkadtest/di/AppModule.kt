@@ -11,6 +11,7 @@ import com.khurram.zapkadtest.data.repository.database.DatabaseRepository
 import com.khurram.zapkadtest.data.repository.database.DatabaseRepositoryImpl
 import com.khurram.zapkadtest.data.repository.network.NetworkRepository
 import com.khurram.zapkadtest.data.repository.network.NetworkRepositoryImpl
+import com.khurram.zapkadtest.util.Constants
 import com.khurram.zapkadtest.util.NetworkStatusTracker
 import dagger.Module
 import dagger.Provides
@@ -31,7 +32,7 @@ import javax.inject.Singleton
 object AppModule {
 
 
-    private const val BASE_URL= "https://api.github.com/"
+    private val BASE_URL= Constants.BASE_URL
 
     private val interceptor: HttpLoggingInterceptor = HttpLoggingInterceptor().setLevel(
         HttpLoggingInterceptor.Level.BODY
@@ -97,4 +98,7 @@ object AppModule {
 //    @Provides
 //    fun provideStringResources(@ApplicationContext context: Context) = StringResources(context)
 
+
 }
+
+
